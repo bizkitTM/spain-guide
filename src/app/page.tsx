@@ -1,5 +1,6 @@
 import React from 'react';
-import { MapPin, Train, Utensils, Wine, Music, Plane, Castle, Anchor, Grape, Home, Coffee } from 'lucide-react';
+import { MapPin, Train, Utensils, Wine, Music, Plane, Castle, Anchor, Grape, Home, Coffee, ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -106,6 +107,27 @@ export default function SpainItinerary() {
           <p className="text-white/90 text-sm font-medium">
             Burgos • San Sebastián • Logroño • Madrid
           </p>
+        </div>
+
+        {/* Quick Links Section */}
+        <div className="bg-amber-50 px-6 py-5 border-b border-amber-100">
+          <h3 className="text-sm font-bold text-amber-900 mb-3 uppercase tracking-wider">Local Guides</h3>
+          <div className="grid grid-cols-2 gap-3">
+            <Link href="/madrid-brunch" className="bg-white hover:bg-orange-50 transition-colors border border-amber-200 rounded-lg p-3 shadow-sm flex items-center justify-between group">
+              <div className="flex items-center">
+                <Coffee className="w-4 h-4 text-orange-500 mr-2" />
+                <span className="font-semibold text-neutral-800 text-sm">Brunch</span>
+              </div>
+              <ArrowRight className="w-4 h-4 text-neutral-300 group-hover:text-orange-500 transition-colors" />
+            </Link>
+            <Link href="/madrid-desserts" className="bg-white hover:bg-purple-50 transition-colors border border-amber-200 rounded-lg p-3 shadow-sm flex items-center justify-between group">
+              <div className="flex items-center">
+                <Utensils className="w-4 h-4 text-purple-500 mr-2" />
+                <span className="font-semibold text-neutral-800 text-sm">Desserts</span>
+              </div>
+              <ArrowRight className="w-4 h-4 text-neutral-300 group-hover:text-purple-500 transition-colors" />
+            </Link>
+          </div>
         </div>
 
         {/* Timeline */}

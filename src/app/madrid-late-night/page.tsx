@@ -21,7 +21,7 @@ export default function MadridLateNight() {
       address: "Calle de Atocha, 42",
       vibe: "Authentic, artisanal Italian gelato.",
       why: "A fantastic late-night gelato fix. Open until midnight (Monday-Saturday) and until 11:00 PM on Sundays. They serve up rich, artisanal Italian ice cream just a short walk away.",
-      imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Gelato_in_Milan_-_big_cone_2019.jpg/960px-Gelato_in_Milan_-_big_cone_2019.jpg",
+      imgUrl: "/gioelia.jpg",
       mapUrl: "https://maps.apple.com/?q=Gioelia+Cremeria+Madrid"
     },
     {

@@ -31,7 +31,7 @@ export default function MadridLateNight() {
       address: "Calle de Echegaray, 21",
       vibe: "Neon-lit, eccentric, world-class mixology.",
       why: "One of the top 50 bars in the world. They serve incredibly creative cocktails and mocktails in crazy custom glasses. Perfect late-night vibe and it's right in your neighborhood.",
-      imgUrl: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=1000",
+      imgUrl: "https://upload.wikimedia.org/wikipedia/commons/3/35/Grease_Cocktail_Bar_Neon_Sign.jpg",
       mapUrl: "https://maps.apple.com/?q=Salmon+Guru+Madrid"
     },
     {
@@ -51,7 +51,7 @@ export default function MadridLateNight() {
       address: "Plaza del Ángel, 10",
       vibe: "Classic jazz cafe with a moody, artistic atmosphere.",
       why: "A legendary jazz club and cafe. Even if you don't stay for a full show, it's a great spot to grab a late-night coffee, dessert, or drink accompanied by great music. Open until 2:30 AM.",
-      imgUrl: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=1000",
+      imgUrl: "https://upload.wikimedia.org/wikipedia/commons/2/27/Cafe_Central_-_Plaza_del_Angel_-_Madrid_01.jpg",
       mapUrl: "https://maps.apple.com/?q=Cafe+Central+Madrid"
     },
     {
@@ -71,7 +71,7 @@ export default function MadridLateNight() {
       address: "Plaza de San Miguel",
       vibe: "Bustling, beautiful, gourmet food hall.",
       why: "While famous for tapas, it's open until midnight (or 1 AM on weekends) and features dessert stalls like Rocambolesc (gourmet gelato). A fantastic place to wander late at night.",
-      imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Mercado_de_San_Miguel_-_Madrid.jpg/960px-Mercado_de_San_Miguel_-_Madrid.jpg",
+      imgUrl: "https://upload.wikimedia.org/wikipedia/commons/7/70/Mercado_de_San_Miguel_-_Madrid_01.jpg",
       mapUrl: "https://maps.apple.com/?q=Mercado+de+San+Miguel+Madrid"
     }
   ];

@@ -43,6 +43,36 @@ export default function MadridBrunch() {
       why: "If you want a classic local experience rather than a modern brunch, head one street over for some of the best authentic churros (or porras) and thick, dark hot chocolate in the neighborhood.",
       imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Chocolate_con_churros_%2827343655726%29.jpg/960px-Chocolate_con_churros_%2827343655726%29.jpg",
       mapUrl: "https://maps.apple.com/?q=Chocolat+Madrid"
+    },
+    {
+      id: "gosto",
+      name: "Gosto Café",
+      distance: "~4 min walk",
+      address: "Calle del León, 30",
+      vibe: "Warm, local, and intimate specialty coffee shop.",
+      why: "Located right in the heart of Barrio de las Letras. Known for exceptional coffee, amazing toasts, and homemade pastries in a very relaxed setting.",
+      imgUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Gosto+Cafe+Madrid"
+    },
+    {
+      id: "plantate",
+      name: "Plántate Café",
+      distance: "~6 min walk",
+      address: "Calle del Mesón de Paños, 28",
+      vibe: "Green, plant-filled, healthy sanctuary.",
+      why: "A gorgeous little cafe filled with plants. They serve top-notch avocado toasts, great matcha, and have plenty of vegan-friendly healthy brunch options.",
+      imgUrl: "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Plantate+Cafe+Madrid"
+    },
+    {
+      id: "acid",
+      name: "Acid Café",
+      distance: "~7 min walk",
+      address: "Calle de la Magdalena, 27",
+      vibe: "Hip, minimalist foodie favorite.",
+      why: "Just down toward Antón Martín, this spot is famous for its incredible sourdough bread, seasonal small plates, and some of the best specialty coffee in the city.",
+      imgUrl: "https://images.unsplash.com/photo-1481833761820-0509d3217039?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Acid+Cafe+Madrid"
     }
   ];
 

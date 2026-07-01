@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Train, Utensils, Wine, Music, Plane, Castle, Anchor, Grape, Home, Coffee, ArrowRight } from 'lucide-react';
+import { MapPin, Train, Utensils, Wine, Music, Plane, Castle, Anchor, Grape, Home, Coffee, ArrowRight, ShoppingBag } from 'lucide-react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
@@ -126,6 +126,13 @@ export default function SpainItinerary() {
                 <span className="font-semibold text-neutral-800 text-sm">Desserts</span>
               </div>
               <ArrowRight className="w-4 h-4 text-neutral-300 group-hover:text-purple-500 transition-colors" />
+            </Link>
+            <Link href="/madrid-shopping" className="col-span-2 bg-white hover:bg-pink-50 transition-colors border border-amber-200 rounded-lg p-3 shadow-sm flex items-center justify-between group">
+              <div className="flex items-center">
+                <ShoppingBag className="w-4 h-4 text-pink-500 mr-2" />
+                <span className="font-semibold text-neutral-800 text-sm">Shopping</span>
+              </div>
+              <ArrowRight className="w-4 h-4 text-neutral-300 group-hover:text-pink-500 transition-colors" />
             </Link>
           </div>
         </div>

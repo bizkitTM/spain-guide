@@ -111,7 +111,7 @@ export default function MadridLateNight() {
                 <img 
                   src={opt.imgUrl} 
                   alt={opt.name}
-                  className="object-cover w-full h-full opacity-90"
+                  className={`w-full h-full opacity-90 ${opt.id === "gioelia" ? "object-contain bg-black" : "object-cover"}`}
                 />
                 <div className="absolute top-3 right-3 bg-neutral-900/90 backdrop-blur-sm px-2.5 py-1 rounded-full text-xs font-bold text-neutral-200 shadow-sm flex items-center border border-neutral-700">
                   <MapPin className="w-3 h-3 mr-1 text-indigo-400" />

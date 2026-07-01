@@ -41,7 +41,7 @@ export default function MadridLateNight() {
       address: "Calle de Cádiz, 10",
       vibe: "Fun, colorful, Instagrammable dessert shop.",
       why: "Famous for their Japanese 'Taiyaki' (fish-shaped waffle cones) filled with soft-serve ice cream and endless toppings. Open until midnight for late sweet cravings.",
-      imgUrl: "https://images.unsplash.com/photo-1558500662-73bc7013e8b0?auto=format&fit=crop&q=80&w=1000",
+      imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Soft_Ice_cream.jpg/960px-Soft_Ice_cream.jpg",
       mapUrl: "https://maps.apple.com/?q=La+Pecera+Calle+Cadiz+Madrid"
     },
     {
@@ -61,7 +61,7 @@ export default function MadridLateNight() {
       address: "Calle Mayor, 40",
       vibe: "Elegant, artisanal Italian gelato.",
       why: "Open until midnight! They are known for shaping their gelato into beautiful roses and topping them with macarons. A perfect sweet treat for a warm Madrid night.",
-      imgUrl: "https://images.unsplash.com/photo-1563805042-7684c8a9e9cb?auto=format&fit=crop&q=80&w=1000",
+      imgUrl: "https://upload.wikimedia.org/wikipedia/commons/9/94/Amorino_Gelato_Flowers_and_Macaroons.jpg",
       mapUrl: "https://maps.apple.com/?q=Amorino+Calle+Mayor+Madrid"
     },
     {

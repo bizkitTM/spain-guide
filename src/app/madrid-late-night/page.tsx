@@ -40,7 +40,7 @@ export default function MadridLateNight() {
       distance: "~5 min walk",
       address: "Plaza del Ángel, 10",
       vibe: "Classic jazz cafe with a moody, artistic atmosphere.",
-      why: "A legendary jazz club and cafe. Even if you don't stay for a full show, it's a great spot to grab a late-night coffee, dessert, or drink accompanied by great music. Open until 2:30 AM.",
+      why: "A legendary jazz club and cafe. Even if you don't stay for a full show, it's a great spot to grab a late-night coffee, dessert, or drink accompanied by great music. Open until 2:30 AM every night.",
       imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Cafe_Central_-_Plaza_del_Angel_-_Madrid_01.jpg/960px-Cafe_Central_-_Plaza_del_Angel_-_Madrid_01.jpg",
       mapUrl: "https://maps.apple.com/?q=Cafe+Central+Madrid"
     },
@@ -50,9 +50,29 @@ export default function MadridLateNight() {
       distance: "~12 min walk",
       address: "Plaza de San Miguel",
       vibe: "Bustling, beautiful, gourmet food hall.",
-      why: "While famous for tapas, it's open until midnight (or 1 AM on weekends) and features dessert stalls like Rocambolesc (gourmet gelato). A fantastic place to wander late at night.",
+      why: "While famous for tapas, it's open until midnight (or 1:00 AM on weekends) and features dessert stalls like Rocambolesc (gourmet gelato). A fantastic place to wander late at night.",
       imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Mercado_de_San_Miguel_-_Madrid_01.jpg/960px-Mercado_de_San_Miguel_-_Madrid_01.jpg",
       mapUrl: "https://maps.apple.com/?q=Mercado+de+San+Miguel+Madrid"
+    },
+    {
+      id: "viva-madrid",
+      name: "Viva Madrid",
+      distance: "~3 min walk",
+      address: "Calle de Manuel Fernández y González, 7",
+      vibe: "Historic 1856 tavern with spectacular tiles and cocktails.",
+      why: "Located practically next door. Run by the same legendary bartender behind Salmon Guru, this gorgeous spot serves elevated drinks and late-night bites until 1:00 AM on weekdays and 2:00 AM on weekends.",
+      imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Viva_Madrid_%284372984539%29_%282%29.jpg/960px-Viva_Madrid_%284372984539%29_%282%29.jpg",
+      mapUrl: "https://maps.apple.com/?q=Viva+Madrid+Manuel+Fernandez+Madrid"
+    },
+    {
+      id: "museo-del-jamon",
+      name: "Museo del Jamón",
+      distance: "~8 min walk",
+      address: "Carrera de San Jerónimo, 6",
+      vibe: "Loud, cheap, chaotic, and wonderfully authentic.",
+      why: "The ultimate Madrid late-night experience. Surrounded by hanging hams, you can grab an incredibly cheap beer and a jamón bocadillo (sandwich) until 2:00 AM every single night.",
+      imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Madrid_-_Museo_del_Jam%C3%B3n_%28Carrera_de_San_Jer%C3%B3nimo%29.jpg/960px-Madrid_-_Museo_del_Jam%C3%B3n_%28Carrera_de_San_Jer%C3%B3nimo%29.jpg",
+      mapUrl: "https://maps.apple.com/?q=Museo+del+Jamon+Carrera+San+Jeronimo+Madrid"
     }
   ];
 

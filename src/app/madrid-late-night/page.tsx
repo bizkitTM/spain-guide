@@ -56,7 +56,7 @@ export default function MadridLateNight() {
     },
     {
       id: "amorino",
-      name": "Amorino",
+      name: "Amorino",
       distance: "~9 min walk",
       address: "Calle Mayor, 40",
       vibe: "Elegant, artisanal Italian gelato.",
@@ -69,7 +69,7 @@ export default function MadridLateNight() {
       name: "Mercado de San Miguel",
       distance: "~12 min walk",
       address: "Plaza de San Miguel",
-      vibe": "Bustling, beautiful, gourmet food hall.",
+      vibe: "Bustling, beautiful, gourmet food hall.",
       why: "While famous for tapas, it's open until midnight (or 1 AM on weekends) and features dessert stalls like Rocambolesc (gourmet gelato). A fantastic place to wander late at night.",
       imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Mercado_de_San_Miguel_-_Madrid.jpg/960px-Mercado_de_San_Miguel_-_Madrid.jpg",
       mapUrl: "https://maps.apple.com/?q=Mercado+de+San+Miguel+Madrid"

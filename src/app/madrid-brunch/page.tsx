@@ -15,6 +15,46 @@ export const metadata: Metadata = {
 export default function MadridBrunch() {
   const options = [
     {
+      id: "plenti-retiro",
+      name: "Plenti",
+      distance: "~2 min walk",
+      address: "Calle Moreto, 17",
+      vibe: "Cozy specialty coffee and eatery near the park.",
+      why: "Located in the Jerónimos neighborhood just off Paseo del Prado, this highly-rated spot is perfect for excellent coffee, baked eggs, and artisan toasts.",
+      imgUrl: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Plenti+Calle+Moreto+Madrid"
+    },
+    {
+      id: "murillo-brunch",
+      name: "Café Murillo",
+      distance: "~2 min walk",
+      address: "Calle Ruiz de Alarcón, 27",
+      vibe: "Elegant bistro-style brunch behind the Prado.",
+      why: "A fantastic, stylish cafe just east of the Prado. They have a great weekend brunch menu, outdoor seating, and a chic ambiance.",
+      imgUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Cafe+Murillo+Ruiz+de+Alarcon+Madrid"
+    },
+    {
+      id: "harina-retiro",
+      name: "[h]arina",
+      distance: "~3 min walk",
+      address: "Plaza de la Independencia, 10",
+      vibe: "Bright, airy artisanal bakery with park views.",
+      why: "Just a short walk up Alfonso XII, they offer incredible fresh bread, pastries, sandwiches, and coffee right across from the Puerta de Alcalá and El Retiro.",
+      imgUrl: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Harina+Plaza+Independencia+Madrid"
+    },
+    {
+      id: "sucre-salon",
+      name: "Sucre Salón de Té",
+      distance: "~1 min walk",
+      address: "Calle Casado del Alisal, 16",
+      vibe: "Charming tearoom with homemade cakes.",
+      why: "Practically next door to your location. It's a lovely, quiet spot offering specialty teas, coffee, and homemade pastries in the Jerónimos neighborhood.",
+      imgUrl: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Sucre+Salon+de+Te+Madrid"
+    },
+    {
       id: "osom",
       name: "Osom Coffee",
       distance: "~1 min walk",

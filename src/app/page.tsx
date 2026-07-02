@@ -1,7 +1,6 @@
 import React from 'react';
 import { MapPin, Train, Utensils, Wine, Music, Plane, Castle, Anchor, Grape, Home, Coffee, ArrowRight, ShoppingBag, Moon } from 'lucide-react';
 import Link from 'next/link';
-import FlightStatus from '../components/FlightStatus';
 
 import type { Metadata } from 'next';
 
@@ -181,7 +180,20 @@ export default function SpainItinerary() {
                       <div className="text-xs font-bold text-neutral-500 mb-1">{event.time}</div>
                       <div className="font-semibold text-neutral-800 mb-0.5">{event.title}</div>
                       <div className="text-sm text-neutral-600 leading-snug">{event.detail}</div>
-                      {event.title.includes('DL 63') && <FlightStatus />}
+                      {event.title.includes('DL 63') && (
+                        <a href="https://flightaware.com/live/flight/DAL63" target="_blank" rel="noreferrer" className="mt-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl p-3.5 shadow-md flex items-center justify-between group transition-all active:scale-[0.98]">
+                          <div className="flex items-center">
+                            <div className="bg-blue-500 rounded-full p-2 mr-3 group-hover:bg-blue-400 transition-colors">
+                              <Plane className="w-5 h-5 text-white" />
+                            </div>
+                            <div className="text-left">
+                              <div className="font-bold text-sm">Live Flight Tracker</div>
+                              <div className="text-xs text-blue-100 font-medium tracking-wide">Track DL63 on FlightAware</div>
+                            </div>
+                          </div>
+                          <ArrowRight className="w-5 h-5 text-blue-200 group-hover:text-white transition-colors" />
+                        </a>
+                      )}
                     </div>
                   ))}
                 </div>

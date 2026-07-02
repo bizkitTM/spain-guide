@@ -59,7 +59,7 @@ export default function SpainItinerary() {
       location: "Logroño",
       icon: <Coffee className="w-5 h-5" />,
       events: [
-        { time: "12:45 PM", title: "Bus to Logroño", detail: "Arrives at 3:00 PM" },
+        { time: "12:35 PM", title: "Bus to Logroño", detail: "Arrives at 3:00 PM" },
         { time: "Afternoon", title: "Settle In", detail: "Check into Calle San Bartolomé apartment" },
         { time: "8:30 PM", title: "Pincho Crawl", detail: "Calle Laurel & Calle San Juan" }
       ]
@@ -95,7 +95,7 @@ export default function SpainItinerary() {
       location: "Heading Home",
       icon: <Plane className="w-5 h-5" />,
       events: [
-        { time: "2:45 PM", title: "Flight DL 63 MAD → BOS", detail: "Arrives at 4:44 PM in Boston" }
+        { time: "2:35 PM", title: "Flight DL 63 MAD → BOS", detail: "Arrives at 4:25 PM in Boston" }
       ]
     }
   ];

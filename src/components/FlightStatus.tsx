@@ -55,8 +55,8 @@ export default function FlightStatus() {
   // If tomorrow's flight isn't in the API response yet (since it's tracking today's active flight)
   const isFutureFallback = !isMock && !flightInfo;
   
-  const depTime = flightInfo?.departure?.estimated || flightInfo?.departure?.scheduled || '2026-07-03T14:45:00Z';
-  const arrTime = flightInfo?.arrival?.estimated || flightInfo?.arrival?.scheduled || '2026-07-03T16:44:00Z';
+  const depTime = flightInfo?.departure?.estimated || flightInfo?.departure?.scheduled || '2026-07-03T14:35:00Z';
+  const arrTime = flightInfo?.arrival?.estimated || flightInfo?.arrival?.scheduled || '2026-07-03T16:25:00Z';
   
   const depGate = flightInfo?.departure?.gate || 'TBD';
   const depTerminal = flightInfo?.departure?.terminal || '1';
@@ -90,20 +90,20 @@ export default function FlightStatus() {
         <div className="text-center">
           <div className="text-3xl font-black text-neutral-800">MAD</div>
           <div className="text-xs font-bold text-neutral-500 mb-1">MADRID</div>
-          <div className="text-lg font-bold text-blue-600">{isMock || isFutureFallback ? "2:45 PM" : formatTime(depTime)}</div>
+          <div className="text-lg font-bold text-blue-600">{isMock || isFutureFallback ? "2:35 PM" : formatTime(depTime)}</div>
           <div className="text-xs text-neutral-500 mt-1">Terminal {depTerminal} • Gate {depGate}</div>
         </div>
 
         <div className="flex-1 px-4 flex flex-col items-center justify-center relative">
           <div className="w-full h-px border-t-2 border-dashed border-neutral-300 relative top-1"></div>
           <Plane className="w-5 h-5 text-neutral-400 absolute top-1/2 -translate-y-1/2" />
-          <div className="text-[10px] uppercase font-bold text-neutral-400 mt-3 bg-white px-2">8h 59m</div>
+          <div className="text-[10px] uppercase font-bold text-neutral-400 mt-3 bg-white px-2">7h 59m</div>
         </div>
 
         <div className="text-center">
           <div className="text-3xl font-black text-neutral-800">BOS</div>
           <div className="text-xs font-bold text-neutral-500 mb-1">BOSTON</div>
-          <div className="text-lg font-bold text-blue-600">{isMock || isFutureFallback ? "4:44 PM" : formatTime(arrTime)}</div>
+          <div className="text-lg font-bold text-blue-600">{isMock || isFutureFallback ? "4:25 PM" : formatTime(arrTime)}</div>
           <div className="text-xs text-neutral-500 mt-1">Terminal E</div>
         </div>
       </div>

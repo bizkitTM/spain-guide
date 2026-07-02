@@ -17,6 +17,7 @@ export default function MadridCoffeeParks() {
     {
       id: "plenti",
       name: "Plenti",
+      rating: "⭐️ 4.7/5 on Tripadvisor",
       distance: "~2 min walk",
       address: "Calle Moreto, 17",
       vibe: "Modern, cozy, and highly rated.",
@@ -27,6 +28,7 @@ export default function MadridCoffeeParks() {
     {
       id: "cafe-murillo",
       name: "Café Murillo",
+      rating: "⭐️ 4.3/5 on Tripadvisor",
       distance: "~2 min walk",
       address: "Calle Ruiz de Alarcón, 27",
       vibe: "Chic bistro right behind the Prado.",
@@ -37,6 +39,7 @@ export default function MadridCoffeeParks() {
     {
       id: "bumpgreen",
       name: "BumpGreen",
+      rating: "⭐️ 4.1/5 on Tripadvisor",
       distance: "~12 min walk",
       address: "Calle de Velázquez, 11",
       vibe: "Green, botanical, and sustainable.",
@@ -47,6 +50,7 @@ export default function MadridCoffeeParks() {
     {
       id: "magasand-retiro",
       name: "Magasand Columela",
+      rating: "⭐️ 3.8/5 on Tripadvisor",
       distance: "~10 min walk",
       address: "Calle Columela, 4",
       vibe: "Hip, casual, and food-forward.",
@@ -57,6 +61,7 @@ export default function MadridCoffeeParks() {
     {
       id: "cappuccino-grand",
       name: "Cappuccino Grand Café",
+      rating: "⭐️ 3.4/5 on Tripadvisor",
       distance: "~8 min walk",
       address: "Plaza de la Independencia, 5",
       vibe: "Luxurious and expansive.",
@@ -67,6 +72,7 @@ export default function MadridCoffeeParks() {
     {
       id: "cristina-oria",
       name: "Cristina Oria",
+      rating: "⭐️ 3.3/5 on Tripadvisor",
       distance: "~11 min walk",
       address: "Calle del Conde de Aranda, 6",
       vibe: "Elegant, gourmet, and Parisian-inspired.",
@@ -113,6 +119,11 @@ export default function MadridCoffeeParks() {
                 <a href={opt.mapUrl} target="_blank" rel="noreferrer" className="text-sm font-medium text-emerald-400 flex items-center mb-3 hover:underline">
                   {opt.address} <span className="ml-2 inline-flex items-center border border-current rounded-full px-2 py-0.5 text-[10px] uppercase tracking-wider font-bold"><ExternalLink className="w-3 h-3 mr-1" /> Map</span>
                 </a>
+                {opt.rating && (
+                  <div className="text-sm font-bold text-amber-400 mb-3">
+                    {opt.rating}
+                  </div>
+                )}
                 
                 <div className="bg-emerald-900/40 text-emerald-200 rounded-lg p-3 text-sm font-medium mb-4 border border-emerald-800/50">
                   <span className="font-bold text-emerald-300 mr-1">Vibe:</span> {opt.vibe}

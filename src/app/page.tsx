@@ -141,6 +141,13 @@ export default function SpainItinerary() {
               </div>
               <ArrowRight className="w-4 h-4 text-neutral-300 group-hover:text-indigo-500 transition-colors" />
             </Link>
+            <Link href="/madrid-coffee-parks" className="bg-white hover:bg-emerald-50 transition-colors border border-amber-200 rounded-lg p-3 shadow-sm flex items-center justify-between group">
+              <div className="flex items-center">
+                <Coffee className="w-4 h-4 text-emerald-500 mr-2" />
+                <span className="font-semibold text-neutral-800 text-sm">Coffee / Parks</span>
+              </div>
+              <ArrowRight className="w-4 h-4 text-neutral-300 group-hover:text-emerald-500 transition-colors" />
+            </Link>
           </div>
         </div>
 

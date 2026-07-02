@@ -15,17 +15,6 @@ export const metadata: Metadata = {
 export default function MadridDinner() {
   const options = [
     {
-      id: "vinoteca-moratin",
-      name: "Vinoteca Moratín",
-      rating: "⭐️ 4.8/5",
-      distance: "~1 min walk",
-      address: "Calle de Moratín, 36",
-      vibe: "Intimate, romantic, and wine-focused.",
-      why: "Right on your street! An incredibly cozy bistro focused on superb wines, excellent steak tartare, and a very curated, high-quality menu.",
-      imgUrl: "https://images.unsplash.com/photo-1510166089176-b57564a5b7b2?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Vinoteca+Moratin+Madrid"
-    },
-    {
       id: "triciclo",
       name: "Triciclo",
       rating: "⭐️ 4.7/5",

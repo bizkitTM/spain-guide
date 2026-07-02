@@ -15,6 +15,26 @@ export const metadata: Metadata = {
 export default function MadridCoffeeParks() {
   const options = [
     {
+      id: "plenti",
+      name: "Plenti",
+      distance: "~2 min walk",
+      address: "Calle Moreto, 17",
+      vibe: "Cozy specialty coffee and eatery.",
+      why: "Tucked right by El Retiro Park and the Prado, they have outdoor seating and excellent coffee.",
+      imgUrl: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Plenti+Calle+Moreto+Madrid"
+    },
+    {
+      id: "cafe-murillo",
+      name: "Café Murillo",
+      distance: "~2 min walk",
+      address: "Calle Ruiz de Alarcón, 27",
+      vibe: "Chic bistro right behind the Prado.",
+      why: "A well-known spot literally steps from the Prado Museum with fantastic outdoor seating and an elegant vibe.",
+      imgUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Cafe+Murillo+Ruiz+de+Alarcon+Madrid"
+    },
+    {
       id: "la-vega",
       name: "La Vega",
       distance: "~3 min walk from Prado",

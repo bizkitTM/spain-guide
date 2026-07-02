@@ -39,15 +39,29 @@ export default function FlightStatus() {
   }
 
   const isMock = data?.isMock;
-  const flightInfo = isMock ? data : data?.data?.[0];
+  
+  // Lock onto the specific July 3rd flight
+  let flightInfo = null;
+  if (isMock) {
+    flightInfo = data;
+  } else if (data?.data && Array.isArray(data.data)) {
+    // Try to find tomorrow's flight specifically
+    flightInfo = data.data.find((f: any) => 
+      f.flight_date === '2026-07-03' || 
+      (f.departure?.scheduled && f.departure.scheduled.includes('2026-07-03'))
+    );
+  }
 
+  // If tomorrow's flight isn't in the API response yet (since it's tracking today's active flight)
+  const isFutureFallback = !isMock && !flightInfo;
+  
   const depTime = flightInfo?.departure?.estimated || flightInfo?.departure?.scheduled || '2026-07-03T14:45:00Z';
   const arrTime = flightInfo?.arrival?.estimated || flightInfo?.arrival?.scheduled || '2026-07-03T16:44:00Z';
   
   const depGate = flightInfo?.departure?.gate || 'TBD';
   const depTerminal = flightInfo?.departure?.terminal || '1';
   
-  const status = flightInfo?.flight_status || 'scheduled';
+  const status = isFutureFallback ? 'scheduled' : (flightInfo?.flight_status || 'scheduled');
   
   const formatTime = (isoString: string) => {
     try {
@@ -76,7 +90,7 @@ export default function FlightStatus() {
         <div className="text-center">
           <div className="text-3xl font-black text-neutral-800">MAD</div>
           <div className="text-xs font-bold text-neutral-500 mb-1">MADRID</div>
-          <div className="text-lg font-bold text-blue-600">{isMock ? "2:45 PM" : formatTime(depTime)}</div>
+          <div className="text-lg font-bold text-blue-600">{isMock || isFutureFallback ? "2:45 PM" : formatTime(depTime)}</div>
           <div className="text-xs text-neutral-500 mt-1">Terminal {depTerminal} • Gate {depGate}</div>
         </div>
 
@@ -89,7 +103,7 @@ export default function FlightStatus() {
         <div className="text-center">
           <div className="text-3xl font-black text-neutral-800">BOS</div>
           <div className="text-xs font-bold text-neutral-500 mb-1">BOSTON</div>
-          <div className="text-lg font-bold text-blue-600">{isMock ? "4:44 PM" : formatTime(arrTime)}</div>
+          <div className="text-lg font-bold text-blue-600">{isMock || isFutureFallback ? "4:44 PM" : formatTime(arrTime)}</div>
           <div className="text-xs text-neutral-500 mt-1">Terminal E</div>
         </div>
       </div>

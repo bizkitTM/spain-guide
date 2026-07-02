@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Brunch Near the Park',
-  description: 'Great brunch spots near Madrid parks with outdoor seating and food',
+  description: 'Full brunch menus near El Retiro and Prado',
   openGraph: {
     title: 'Brunch Near the Park',
     siteName: 'Brunch Near the Park',
@@ -19,50 +19,10 @@ export default function MadridCoffeeParks() {
       name: "Plenti",
       distance: "~2 min walk",
       address: "Calle Moreto, 17",
-      vibe: "Cozy specialty coffee and eatery.",
-      why: "Tucked right by El Retiro Park. Famous for their baked eggs, artisan toasts, and hearty brunch bowls.",
-      imgUrl: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=1000",
+      vibe: "Modern, cozy, and highly rated.",
+      why: "Tucked right by El Retiro Park and the Prado. Their menu is fantastic—famous for baked eggs, loaded avocado artisan toasts, and hearty brunch bowls.",
+      imgUrl: "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?auto=format&fit=crop&q=80&w=1000",
       mapUrl: "https://maps.apple.com/?q=Plenti+Calle+Moreto+Madrid"
-    },
-    {
-      id: "cafeteria-prado",
-      name: "Cafetería Prado",
-      distance: "~2 min walk",
-      address: "Paseo del Prado, 16",
-      vibe: "Classic local Spanish cafeteria.",
-      why: "Perfect if you just want a quick, inexpensive 'tostada con tomate' (tomato toast) and a coffee right on the main avenue without any fuss.",
-      imgUrl: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Cafeteria+Prado+Madrid"
-    },
-    {
-      id: "expressio-cafe",
-      name: "Expressio Café",
-      distance: "~4 min walk",
-      address: "Calle Espalter, 9",
-      vibe: "Casual, relaxed cafe by the gardens.",
-      why: "Right next to the Botanical Garden. It's a great, unpretentious spot for a quick morning coffee, fresh orange juice, and a breakfast sandwich.",
-      imgUrl: "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Expressio+Cafe+Espalter+Madrid"
-    },
-    {
-      id: "qrico",
-      name: "Qrico",
-      distance: "~3 min walk",
-      address: "Plaza de la Lealtad",
-      vibe: "Relaxed coffee and snack stop.",
-      why: "A very casual grab-and-go or quick-sit spot right off the Paseo near the Ritz. Excellent for a fast coffee and a quick pastry.",
-      imgUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Qrico+Plaza+Lealtad+Madrid"
-    },
-    {
-      id: "vait-alcala",
-      name: "Vait Alcalá Pastelería",
-      distance: "~8 min walk",
-      address: "Calle de Alcalá, 54",
-      vibe: "Beautiful Spanish bakery and cafe.",
-      why: "Located near the park's north gates. It's fantastic for sweet pastries, savory croissants, and traditional Spanish breakfast combos.",
-      imgUrl: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Vait+Alcala+Madrid"
     },
     {
       id: "cafe-murillo",
@@ -70,149 +30,49 @@ export default function MadridCoffeeParks() {
       distance: "~2 min walk",
       address: "Calle Ruiz de Alarcón, 27",
       vibe: "Chic bistro right behind the Prado.",
-      why: "Elegant bistro serving a full brunch menu—think eggs benedict, pancakes, and Spanish tortillas, right near the park gates.",
+      why: "A stylish spot with a dedicated weekend brunch menu featuring eggs benedict, fluffy pancakes, and proper breakfast plates right near the park gates.",
       imgUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1000",
       mapUrl: "https://maps.apple.com/?q=Cafe+Murillo+Ruiz+de+Alarcon+Madrid"
     },
     {
-      id: "cafeteria-prado",
-      name: "Cafetería Prado",
-      distance: "~2 min walk",
-      address: "Paseo del Prado, 16",
-      vibe: "Classic local Spanish cafeteria.",
-      why: "Perfect if you just want a quick, inexpensive 'tostada con tomate' (tomato toast) and a coffee right on the main avenue without any fuss.",
-      imgUrl: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Cafeteria+Prado+Madrid"
+      id: "bumpgreen",
+      name: "BumpGreen",
+      distance: "~12 min walk",
+      address: "Calle de Velázquez, 11",
+      vibe: "Green, botanical, and sustainable.",
+      why: "Just north of the park. If you want a massive, healthy, and creative brunch menu with incredible sweet potato pancakes, artisan toasts, and superfood bowls, this is the spot.",
+      imgUrl: "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=BumpGreen+Madrid"
     },
     {
-      id: "expressio-cafe",
-      name: "Expressio Café",
-      distance: "~4 min walk",
-      address: "Calle Espalter, 9",
-      vibe: "Casual, relaxed cafe by the gardens.",
-      why: "Right next to the Botanical Garden. It's a great, unpretentious spot for a quick morning coffee, fresh orange juice, and a breakfast sandwich.",
-      imgUrl: "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Expressio+Cafe+Espalter+Madrid"
+      id: "magasand-retiro",
+      name: "Magasand Columela",
+      distance: "~10 min walk",
+      address: "Calle Columela, 4",
+      vibe: "Hip, casual, and food-forward.",
+      why: "A block away from El Retiro. They are famous for their giant loaded bagels, thick healthy toasts, savory bowls, and fantastic sweet brunch options.",
+      imgUrl: "https://images.unsplash.com/photo-1481833761820-0509d3217039?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Magasand+Columela+Madrid"
     },
     {
-      id: "qrico",
-      name: "Qrico",
-      distance: "~3 min walk",
-      address: "Plaza de la Lealtad",
-      vibe: "Relaxed coffee and snack stop.",
-      why: "A very casual grab-and-go or quick-sit spot right off the Paseo near the Ritz. Excellent for a fast coffee and a quick pastry.",
-      imgUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Qrico+Plaza+Lealtad+Madrid"
-    },
-    {
-      id: "vait-alcala",
-      name: "Vait Alcalá Pastelería",
+      id: "cappuccino-grand",
+      name: "Cappuccino Grand Café",
       distance: "~8 min walk",
-      address: "Calle de Alcalá, 54",
-      vibe: "Beautiful Spanish bakery and cafe.",
-      why: "Located near the park's north gates. It's fantastic for sweet pastries, savory croissants, and traditional Spanish breakfast combos.",
-      imgUrl: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Vait+Alcala+Madrid"
+      address: "Plaza de la Independencia, 5",
+      vibe: "Luxurious and expansive.",
+      why: "Located right at the Puerta de Alcalá park gates. They offer a huge, luxurious full breakfast and brunch menu with everything from cooked English breakfasts to fruit platters and pastries.",
+      imgUrl: "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Cappuccino+Grand+Cafe+Madrid"
     },
     {
-      id: "harina",
-      name: "[h]arina",
-      distance: "~3 min walk",
-      address: "Plaza de la Independencia, 10",
-      vibe: "Bright artisanal bakery with park views.",
-      why: "Perfect for a hearty bite. They offer incredible fresh sandwiches, quiches, and artisanal pastries right across from El Retiro.",
-      imgUrl: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Harina+Plaza+Independencia+Madrid"
-    },
-    {
-      id: "cafeteria-prado",
-      name: "Cafetería Prado",
-      distance: "~2 min walk",
-      address: "Paseo del Prado, 16",
-      vibe: "Classic local Spanish cafeteria.",
-      why: "Perfect if you just want a quick, inexpensive 'tostada con tomate' (tomato toast) and a coffee right on the main avenue without any fuss.",
-      imgUrl: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Cafeteria+Prado+Madrid"
-    },
-    {
-      id: "expressio-cafe",
-      name: "Expressio Café",
-      distance: "~4 min walk",
-      address: "Calle Espalter, 9",
-      vibe: "Casual, relaxed cafe by the gardens.",
-      why: "Right next to the Botanical Garden. It's a great, unpretentious spot for a quick morning coffee, fresh orange juice, and a breakfast sandwich.",
-      imgUrl: "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Expressio+Cafe+Espalter+Madrid"
-    },
-    {
-      id: "qrico",
-      name: "Qrico",
-      distance: "~3 min walk",
-      address: "Plaza de la Lealtad",
-      vibe: "Relaxed coffee and snack stop.",
-      why: "A very casual grab-and-go or quick-sit spot right off the Paseo near the Ritz. Excellent for a fast coffee and a quick pastry.",
-      imgUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Qrico+Plaza+Lealtad+Madrid"
-    },
-    {
-      id: "vait-alcala",
-      name: "Vait Alcalá Pastelería",
-      distance: "~8 min walk",
-      address: "Calle de Alcalá, 54",
-      vibe: "Beautiful Spanish bakery and cafe.",
-      why: "Located near the park's north gates. It's fantastic for sweet pastries, savory croissants, and traditional Spanish breakfast combos.",
-      imgUrl: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Vait+Alcala+Madrid"
-    },
-    {
-      id: "el-botanico",
-      name: "El Botánico",
-      distance: "~2 min walk",
-      address: "Calle Ruiz de Alarcón, 27",
-      vibe: "Classic restaurant with a beautiful terrace.",
-      why: "Fantastic for a substantial brunch or lunch. They serve excellent traditional Spanish dishes and hearty meals with a view of the Botanical Garden.",
-      imgUrl: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=El+Botanico+Madrid"
-    },
-    {
-      id: "cafeteria-prado",
-      name: "Cafetería Prado",
-      distance: "~2 min walk",
-      address: "Paseo del Prado, 16",
-      vibe: "Classic local Spanish cafeteria.",
-      why: "Perfect if you just want a quick, inexpensive 'tostada con tomate' (tomato toast) and a coffee right on the main avenue without any fuss.",
-      imgUrl: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Cafeteria+Prado+Madrid"
-    },
-    {
-      id: "expressio-cafe",
-      name: "Expressio Café",
-      distance: "~4 min walk",
-      address: "Calle Espalter, 9",
-      vibe: "Casual, relaxed cafe by the gardens.",
-      why: "Right next to the Botanical Garden. It's a great, unpretentious spot for a quick morning coffee, fresh orange juice, and a breakfast sandwich.",
-      imgUrl: "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Expressio+Cafe+Espalter+Madrid"
-    },
-    {
-      id: "qrico",
-      name: "Qrico",
-      distance: "~3 min walk",
-      address: "Plaza de la Lealtad",
-      vibe: "Relaxed coffee and snack stop.",
-      why: "A very casual grab-and-go or quick-sit spot right off the Paseo near the Ritz. Excellent for a fast coffee and a quick pastry.",
-      imgUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Qrico+Plaza+Lealtad+Madrid"
-    },
-    {
-      id: "vait-alcala",
-      name: "Vait Alcalá Pastelería",
-      distance: "~8 min walk",
-      address: "Calle de Alcalá, 54",
-      vibe: "Beautiful Spanish bakery and cafe.",
-      why: "Located near the park's north gates. It's fantastic for sweet pastries, savory croissants, and traditional Spanish breakfast combos.",
-      imgUrl: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Vait+Alcala+Madrid"
+      id: "cristina-oria",
+      name: "Cristina Oria",
+      distance: "~11 min walk",
+      address: "Calle del Conde de Aranda, 6",
+      vibe: "Elegant, gourmet, and Parisian-inspired.",
+      why: "A short walk from the park, offering a stunning brunch menu. Think gourmet waffles, incredible loaded toasts, and perfectly cooked eggs in a beautiful setting.",
+      imgUrl: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Cristina+Oria+Conde+de+Aranda+Madrid"
     }
   ];
 
@@ -228,7 +88,7 @@ export default function MadridCoffeeParks() {
           <h1 className="text-3xl font-bold tracking-tight mb-2">Brunch Near the Park</h1>
           <p className="text-emerald-200 text-sm font-medium flex items-center">
             <Utensils className="w-4 h-4 mr-1" />
-            Great food & coffee by the greenery
+            Full menus & hearty plates
           </p>
         </div>
 
@@ -261,7 +121,7 @@ export default function MadridCoffeeParks() {
                 <div className="flex gap-2">
                   <Info className="w-5 h-5 text-neutral-500 shrink-0 mt-0.5" />
                   <p className="text-sm text-neutral-300 leading-relaxed">
-                    <span className="font-bold text-neutral-400">Why go: </span>
+                    <span className="font-bold text-neutral-400">Menu: </span>
                     {opt.why}
                   </p>
                 </div>

@@ -1,14 +1,14 @@
 import React from 'react';
-import { MapPin, Info, ArrowLeft, ExternalLink, Coffee } from 'lucide-react';
+import { MapPin, Info, ArrowLeft, ExternalLink, Utensils } from 'lucide-react';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Coffee & Parks',
-  description: 'Great coffee spots near Madrid parks with outdoor seating',
+  title: 'Brunch Near the Park',
+  description: 'Great brunch spots near Madrid parks with outdoor seating and food',
   openGraph: {
-    title: 'Coffee & Parks',
-    siteName: 'Coffee & Parks',
+    title: 'Brunch Near the Park',
+    siteName: 'Brunch Near the Park',
   }
 };
 
@@ -20,7 +20,7 @@ export default function MadridCoffeeParks() {
       distance: "~2 min walk",
       address: "Calle Moreto, 17",
       vibe: "Cozy specialty coffee and eatery.",
-      why: "Tucked right by El Retiro Park and the Prado, they have outdoor seating and excellent coffee.",
+      why: "Tucked right by El Retiro Park. Famous for their baked eggs, artisan toasts, and hearty brunch bowls.",
       imgUrl: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=1000",
       mapUrl: "https://maps.apple.com/?q=Plenti+Calle+Moreto+Madrid"
     },
@@ -30,19 +30,29 @@ export default function MadridCoffeeParks() {
       distance: "~2 min walk",
       address: "Calle Ruiz de Alarcón, 27",
       vibe: "Chic bistro right behind the Prado.",
-      why: "A well-known spot literally steps from the Prado Museum with fantastic outdoor seating and an elegant vibe.",
+      why: "Elegant bistro serving a full brunch menu—think eggs benedict, pancakes, and Spanish tortillas, right near the park gates.",
       imgUrl: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=1000",
       mapUrl: "https://maps.apple.com/?q=Cafe+Murillo+Ruiz+de+Alarcon+Madrid"
     },
     {
-      id: "la-vega",
-      name: "La Vega",
-      distance: "~3 min walk from Prado",
-      address: "Calle de Lope de Vega",
-      vibe: "Relaxed cafe with outdoor seating.",
-      why: "A great spot to grab a coffee and sit outside after visiting the Prado Museum or wandering near the Botanical Gardens.",
-      imgUrl: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=La+Vega+Calle+de+Lope+de+Vega+Madrid"
+      id: "harina",
+      name: "[h]arina",
+      distance: "~3 min walk",
+      address: "Plaza de la Independencia, 10",
+      vibe: "Bright artisanal bakery with park views.",
+      why: "Perfect for a hearty bite. They offer incredible fresh sandwiches, quiches, and artisanal pastries right across from El Retiro.",
+      imgUrl: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Harina+Plaza+Independencia+Madrid"
+    },
+    {
+      id: "el-botanico",
+      name: "El Botánico",
+      distance: "~2 min walk",
+      address: "Calle Ruiz de Alarcón, 27",
+      vibe: "Classic restaurant with a beautiful terrace.",
+      why: "Fantastic for a substantial brunch or lunch. They serve excellent traditional Spanish dishes and hearty meals with a view of the Botanical Garden.",
+      imgUrl: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=El+Botanico+Madrid"
     }
   ];
 
@@ -55,10 +65,10 @@ export default function MadridCoffeeParks() {
             <ArrowLeft className="w-4 h-4 mr-1" />
             Back to Itinerary
           </Link>
-          <h1 className="text-3xl font-bold tracking-tight mb-2">Coffee & Parks</h1>
+          <h1 className="text-3xl font-bold tracking-tight mb-2">Brunch Near the Park</h1>
           <p className="text-emerald-200 text-sm font-medium flex items-center">
-            <Coffee className="w-4 h-4 mr-1" />
-            Outdoor seating near the greenery
+            <Utensils className="w-4 h-4 mr-1" />
+            Great food & coffee by the greenery
           </p>
         </div>
 

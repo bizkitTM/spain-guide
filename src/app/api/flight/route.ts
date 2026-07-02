@@ -1,3 +1,6 @@
+export const dynamic = 'force-dynamic';
+export const fetchCache = 'force-no-store';
+
 import { NextResponse } from 'next/server';
 
 export async function GET() {
@@ -15,7 +18,7 @@ export async function GET() {
   }
   
   try {
-    const res = await fetch(`http://api.aviationstack.com/v1/flights?access_key=${flightKey}&flight_iata=DL63`);
+    const res = await fetch(`http://api.aviationstack.com/v1/flights?access_key=${flightKey}&flight_iata=DL63`, { cache: 'no-store' });
     const data = await res.json();
     return NextResponse.json(data);
   } catch (err) {

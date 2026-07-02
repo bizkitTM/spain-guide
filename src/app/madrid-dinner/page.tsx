@@ -69,6 +69,40 @@ export default function MadridDinner() {
       imgUrl: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=1000",
       mapUrl: "https://maps.apple.com/?q=Matute+12+Madrid"
     }
+    ,
+    {
+      id: "taberna-mas-al-sur",
+      name: "Taberna Más Al Sur",
+      rating: "⭐️ 4.7/5",
+      distance: "~3 min walk",
+      address: "Calle de Santa Isabel, 35",
+      vibe: "Warm, bustling, and friendly.",
+      why: "The highly-rated sister restaurant to Taberna El Sur. Exceptional traditional Spanish food, incredible sangria, and phenomenal service in a cozy tavern setting.",
+      imgUrl: "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Taberna+Mas+Al+Sur+Madrid"
+    },
+    {
+      id: "la-cabana-argentina",
+      name: "La Cabaña Argentina",
+      rating: "⭐️ 4.6/5",
+      distance: "~4 min walk",
+      address: "Calle Ventura de la Vega, 10",
+      vibe: "Upscale, elegant, and meat-focused.",
+      why: "Considered one of the absolute best steakhouses in Madrid. If you want a break from tapas and crave world-class cuts of Argentine beef and fine wine, this is the spot.",
+      imgUrl: "https://images.unsplash.com/photo-1544025162-8415d6666736?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=La+Cabana+Argentina+Madrid"
+    },
+    {
+      id: "inclan-brutal-bar",
+      name: "Inclán Brutal Bar",
+      rating: "⭐️ 4.6/5",
+      distance: "~6 min walk",
+      address: "Calle de Álvarez Gato, 4",
+      vibe: "Fun, quirky, and theatrical.",
+      why: "Known for insanely creative, modern tapas and theatrical cocktail presentations. It's a very vibrant, fun atmosphere if you're looking for a lively night out.",
+      imgUrl: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1000",
+      mapUrl: "https://maps.apple.com/?q=Inclan+Brutal+Bar+Madrid"
+    }
   ];
 
   return (

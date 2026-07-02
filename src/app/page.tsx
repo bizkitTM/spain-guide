@@ -1,6 +1,8 @@
 import React from 'react';
 import { MapPin, Train, Utensils, Wine, Music, Plane, Castle, Anchor, Grape, Home, Coffee, ArrowRight, ShoppingBag, Moon } from 'lucide-react';
 import Link from 'next/link';
+import FlightStatus from '../components/FlightStatus';
+
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -179,6 +181,7 @@ export default function SpainItinerary() {
                       <div className="text-xs font-bold text-neutral-500 mb-1">{event.time}</div>
                       <div className="font-semibold text-neutral-800 mb-0.5">{event.title}</div>
                       <div className="text-sm text-neutral-600 leading-snug">{event.detail}</div>
+                      {event.title.includes('MAD → BOS') && <FlightStatus />}
                     </div>
                   ))}
                 </div>

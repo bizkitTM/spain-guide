@@ -102,7 +102,7 @@ export default function MadridShopping() {
               <div className="p-5">
                 <h2 className="text-xl font-bold text-neutral-800 mb-1">{opt.name}</h2>
                 <a href={opt.mapUrl} target="_blank" rel="noreferrer" className="text-sm font-medium text-pink-600 flex items-center mb-3 hover:underline">
-                  {opt.address} <ExternalLink className="w-3 h-3 ml-1" />
+                  {opt.address} <span className="ml-2 inline-flex items-center border border-current rounded-full px-2 py-0.5 text-[10px] uppercase tracking-wider font-bold"><ExternalLink className="w-3 h-3 mr-1" /> Map</span>
                 </a>
                 
                 <div className="bg-pink-50 text-pink-800 rounded-lg p-3 text-sm font-medium mb-4 border border-pink-100/50">

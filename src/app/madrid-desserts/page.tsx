@@ -17,6 +17,7 @@ export default function MadridDesserts() {
     {
       id: "gioelia",
       name: "Gioelia Cremería",
+      rating: "⭐️ 4.7/5",
       distance: "~3 min walk",
       address: "Calle de Atocha, 42",
       vibe: "Authentic, high-quality Italian gelato.",
@@ -27,6 +28,7 @@ export default function MadridDesserts() {
     {
       id: "ragazzi",
       name: "Heladería Ragazzi",
+      rating: "⭐️ 4.6/5",
       distance: "~5 min walk",
       address: "Calle de Santa Isabel, 7",
       vibe: "Fantastic artisan ice cream.",
@@ -37,6 +39,7 @@ export default function MadridDesserts() {
     {
       id: "san-gines",
       name: "Chocolatería San Ginés",
+      rating: "⭐️ 4.2/5",
       distance: "~10-12 min walk",
       address: "Pasadizo de San Ginés, 5",
       vibe: "Historic churros and chocolate.",
@@ -84,6 +87,11 @@ export default function MadridDesserts() {
                 <a href={opt.mapUrl} target="_blank" rel="noreferrer" className="text-sm font-medium text-indigo-600 flex items-center mb-3 hover:underline">
                   {opt.address} <span className="ml-2 inline-flex items-center border border-current rounded-full px-2 py-0.5 text-[10px] uppercase tracking-wider font-bold"><ExternalLink className="w-3 h-3 mr-1" /> Map</span>
                 </a>
+                {opt.rating && (
+                  <div className="text-sm font-bold text-amber-500 mb-3">
+                    {opt.rating}
+                  </div>
+                )}
                 
                 <div className="bg-indigo-50 text-indigo-800 rounded-lg p-3 text-sm font-medium mb-4 border border-indigo-100/50">
                   <span className="font-bold mr-1">Vibe:</span> {opt.vibe}

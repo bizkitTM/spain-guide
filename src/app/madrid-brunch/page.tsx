@@ -17,6 +17,7 @@ export default function MadridBrunch() {
     {
       id: "plenti-retiro",
       name: "Plenti",
+      rating: "⭐️ 4.7/5",
       distance: "~2 min walk",
       address: "Calle Moreto, 17",
       vibe: "Cozy specialty coffee and eatery near the park.",
@@ -27,6 +28,7 @@ export default function MadridBrunch() {
     {
       id: "murillo-brunch",
       name: "Café Murillo",
+      rating: "⭐️ 4.3/5",
       distance: "~2 min walk",
       address: "Calle Ruiz de Alarcón, 27",
       vibe: "Elegant bistro-style brunch behind the Prado.",
@@ -37,6 +39,7 @@ export default function MadridBrunch() {
     {
       id: "harina-retiro",
       name: "[h]arina",
+      rating: "⭐️ 4.1/5",
       distance: "~3 min walk",
       address: "Plaza de la Independencia, 10",
       vibe: "Bright, airy artisanal bakery with park views.",
@@ -47,6 +50,7 @@ export default function MadridBrunch() {
     {
       id: "sucre-salon",
       name: "Sucre Salón de Té",
+      rating: "⭐️ 4.6/5",
       distance: "~1 min walk",
       address: "Calle Casado del Alisal, 16",
       vibe: "Charming tearoom with homemade cakes.",
@@ -57,6 +61,7 @@ export default function MadridBrunch() {
     {
       id: "osom",
       name: "Osom Coffee",
+      rating: "⭐️ 4.6/5",
       distance: "~1 min walk",
       address: "Calle de Moratín, 38",
       vibe: "Modern, minimalist, specialty coffee house.",
@@ -67,6 +72,7 @@ export default function MadridBrunch() {
     {
       id: "brunchit",
       name: "Brunchit Las Letras",
+      rating: "⭐️ 4.7/5",
       distance: "~2 min walk",
       address: "Plaza de Matute, 5",
       vibe: "Bright, vibrant, and extremely popular for a big brunch.",
@@ -77,6 +83,7 @@ export default function MadridBrunch() {
     {
       id: "chocolat",
       name: "Chocolat Madrid",
+      rating: "⭐️ 4.5/5",
       distance: "~2 min walk",
       address: "Calle de Santa María, 30",
       vibe: "Traditional, cozy Spanish chocolatería.",
@@ -87,6 +94,7 @@ export default function MadridBrunch() {
     {
       id: "gosto",
       name: "Gosto Café",
+      rating: "⭐️ 4.8/5",
       distance: "~4 min walk",
       address: "Calle del León, 30",
       vibe: "Warm, local, and intimate specialty coffee shop.",
@@ -97,6 +105,7 @@ export default function MadridBrunch() {
     {
       id: "plantate",
       name: "Plántate Café",
+      rating: "⭐️ 4.7/5",
       distance: "~6 min walk",
       address: "Calle del Mesón de Paños, 28",
       vibe: "Green, plant-filled, healthy sanctuary.",
@@ -107,6 +116,7 @@ export default function MadridBrunch() {
     {
       id: "acid",
       name: "Acid Café",
+      rating: "⭐️ 4.4/5",
       distance: "~7 min walk",
       address: "Calle de la Magdalena, 27",
       vibe: "Hip, minimalist foodie favorite.",
@@ -154,6 +164,11 @@ export default function MadridBrunch() {
                 <a href={opt.mapUrl} target="_blank" rel="noreferrer" className="text-sm font-medium text-orange-600 flex items-center mb-3 hover:underline">
                   {opt.address} <span className="ml-2 inline-flex items-center border border-current rounded-full px-2 py-0.5 text-[10px] uppercase tracking-wider font-bold"><ExternalLink className="w-3 h-3 mr-1" /> Map</span>
                 </a>
+                {opt.rating && (
+                  <div className="text-sm font-bold text-amber-500 mb-3">
+                    {opt.rating}
+                  </div>
+                )}
                 
                 <div className="bg-orange-50 text-orange-800 rounded-lg p-3 text-sm font-medium mb-4 border border-orange-100/50">
                   <span className="font-bold mr-1">Vibe:</span> {opt.vibe}

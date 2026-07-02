@@ -17,6 +17,7 @@ export default function MadridLateNight() {
     {
       id: "gioelia",
       name: "Gioelia Cremeria",
+      rating: "⭐️ 4.7/5",
       distance: "~4 min walk",
       address: "Calle de Atocha, 42",
       vibe: "Authentic, artisanal Italian gelato.",
@@ -27,6 +28,7 @@ export default function MadridLateNight() {
     {
       id: "san-gines",
       name: "Chocolatería San Ginés",
+      rating: "⭐️ 4.2/5",
       distance: "~12 min walk",
       address: "Pasadizo de San Ginés, 5",
       vibe: "Historic, bustling 24-hour institution.",
@@ -37,6 +39,7 @@ export default function MadridLateNight() {
     {
       id: "salmon-guru",
       name: "Salmon Guru",
+      rating: "⭐️ 4.6/5",
       distance: "~4 min walk",
       address: "Calle de Echegaray, 21",
       vibe: "Neon-lit, eccentric, world-class mixology.",
@@ -47,6 +50,7 @@ export default function MadridLateNight() {
     {
       id: "cafe-central",
       name: "Café Central",
+      rating: "⭐️ 4.4/5",
       distance: "~5 min walk",
       address: "Plaza del Ángel, 10",
       vibe: "Classic jazz cafe with a moody, artistic atmosphere.",
@@ -57,6 +61,7 @@ export default function MadridLateNight() {
     {
       id: "mercado-san-miguel",
       name: "Mercado de San Miguel",
+      rating: "⭐️ 4.3/5",
       distance: "~12 min walk",
       address: "Plaza de San Miguel",
       vibe: "Bustling, beautiful, gourmet food hall.",
@@ -67,6 +72,7 @@ export default function MadridLateNight() {
     {
       id: "viva-madrid",
       name: "Viva Madrid",
+      rating: "⭐️ 4.5/5",
       distance: "~3 min walk",
       address: "Calle de Manuel Fernández y González, 7",
       vibe: "Historic 1856 tavern with spectacular tiles and cocktails.",
@@ -77,6 +83,7 @@ export default function MadridLateNight() {
     {
       id: "museo-del-jamon",
       name: "Museo del Jamón",
+      rating: "⭐️ 3.9/5",
       distance: "~8 min walk",
       address: "Carrera de San Jerónimo, 6",
       vibe: "Loud, cheap, chaotic, and wonderfully authentic.",
@@ -124,6 +131,11 @@ export default function MadridLateNight() {
                 <a href={opt.mapUrl} target="_blank" rel="noreferrer" className="text-sm font-medium text-indigo-400 flex items-center mb-3 hover:underline">
                   {opt.address} <span className="ml-2 inline-flex items-center border border-current rounded-full px-2 py-0.5 text-[10px] uppercase tracking-wider font-bold"><ExternalLink className="w-3 h-3 mr-1" /> Map</span>
                 </a>
+                {opt.rating && (
+                  <div className="text-sm font-bold text-amber-400 mb-3">
+                    {opt.rating}
+                  </div>
+                )}
                 
                 <div className="bg-indigo-900/40 text-indigo-200 rounded-lg p-3 text-sm font-medium mb-4 border border-indigo-800/50">
                   <span className="font-bold text-indigo-300 mr-1">Vibe:</span> {opt.vibe}

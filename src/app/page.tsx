@@ -95,7 +95,7 @@ export default function SpainItinerary() {
       location: "Heading Home",
       icon: <Plane className="w-5 h-5" />,
       events: [
-        { time: "2:45 PM", title: "Flight MAD → BOS", detail: "Arrives at 4:44 PM in Boston" }
+        { time: "2:45 PM", title: "Flight DL 63 MAD → BOS", detail: "Arrives at 4:44 PM in Boston" }
       ]
     }
   ];
@@ -181,7 +181,7 @@ export default function SpainItinerary() {
                       <div className="text-xs font-bold text-neutral-500 mb-1">{event.time}</div>
                       <div className="font-semibold text-neutral-800 mb-0.5">{event.title}</div>
                       <div className="text-sm text-neutral-600 leading-snug">{event.detail}</div>
-                      {event.title.includes('MAD → BOS') && <FlightStatus />}
+                      {event.title.includes('DL 63') && <FlightStatus />}
                     </div>
                   ))}
                 </div>

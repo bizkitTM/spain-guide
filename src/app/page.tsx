@@ -153,6 +153,11 @@ export default function SpainItinerary() {
           </div>
         </div>
 
+        {/* Flight Tracker below buttons */}
+        <div className="px-6 py-4">
+          <FlightStatus />
+        </div>
+
         {/* Timeline */}
         <div className="p-6">
           <div className="space-y-8">
@@ -181,7 +186,7 @@ export default function SpainItinerary() {
                       <div className="text-xs font-bold text-neutral-500 mb-1">{event.time}</div>
                       <div className="font-semibold text-neutral-800 mb-0.5">{event.title}</div>
                       <div className="text-sm text-neutral-600 leading-snug">{event.detail}</div>
-                      {event.title.includes('DL 63') && <FlightStatus />}
+                      
                     </div>
                   ))}
                 </div>

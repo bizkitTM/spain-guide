@@ -46,39 +46,6 @@ export default function MadridCoffeeParks() {
       why: "Just north of the park. If you want a massive, healthy, and creative brunch menu with incredible sweet potato pancakes, artisan toasts, and superfood bowls, this is the spot.",
       imgUrl: "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&q=80&w=1000",
       mapUrl: "https://maps.apple.com/?q=BumpGreen+Madrid"
-    },
-    {
-      id: "magasand-retiro",
-      name: "Magasand Columela",
-      rating: "⭐️ 3.8/5 on Tripadvisor",
-      distance: "~10 min walk",
-      address: "Calle Columela, 4",
-      vibe: "Hip, casual, and food-forward.",
-      why: "A block away from El Retiro. They are famous for their giant loaded bagels, thick healthy toasts, savory bowls, and fantastic sweet brunch options.",
-      imgUrl: "https://images.unsplash.com/photo-1481833761820-0509d3217039?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Magasand+Columela+Madrid"
-    },
-    {
-      id: "cappuccino-grand",
-      name: "Cappuccino Grand Café",
-      rating: "⭐️ 3.4/5 on Tripadvisor",
-      distance: "~8 min walk",
-      address: "Plaza de la Independencia, 5",
-      vibe: "Luxurious and expansive.",
-      why: "Located right at the Puerta de Alcalá park gates. They offer a huge, luxurious full breakfast and brunch menu with everything from cooked English breakfasts to fruit platters and pastries.",
-      imgUrl: "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Cappuccino+Grand+Cafe+Madrid"
-    },
-    {
-      id: "cristina-oria",
-      name: "Cristina Oria",
-      rating: "⭐️ 3.3/5 on Tripadvisor",
-      distance: "~11 min walk",
-      address: "Calle del Conde de Aranda, 6",
-      vibe: "Elegant, gourmet, and Parisian-inspired.",
-      why: "A short walk from the park, offering a stunning brunch menu. Think gourmet waffles, incredible loaded toasts, and perfectly cooked eggs in a beautiful setting.",
-      imgUrl: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=1000",
-      mapUrl: "https://maps.apple.com/?q=Cristina+Oria+Conde+de+Aranda+Madrid"
     }
   ];
 

@@ -79,17 +79,6 @@ export default function MadridLateNight() {
       why: "Located practically next door. Run by the same legendary bartender behind Salmon Guru, this gorgeous spot serves elevated drinks and late-night bites until 1:00 AM on weekdays and 2:00 AM on weekends.",
       imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Viva_Madrid_%284372984539%29_%282%29.jpg/960px-Viva_Madrid_%284372984539%29_%282%29.jpg",
       mapUrl: "https://maps.apple.com/?q=Viva+Madrid+Manuel+Fernandez+Madrid"
-    },
-    {
-      id: "museo-del-jamon",
-      name: "Museo del Jamón",
-      rating: "⭐️ 3.9/5",
-      distance: "~8 min walk",
-      address: "Carrera de San Jerónimo, 6",
-      vibe: "Loud, cheap, chaotic, and wonderfully authentic.",
-      why: "The ultimate Madrid late-night experience. Surrounded by hanging hams, you can grab an incredibly cheap beer and a jamón bocadillo (sandwich) until 2:00 AM every single night.",
-      imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Madrid_-_Museo_del_Jam%C3%B3n_%28Carrera_de_San_Jer%C3%B3nimo%29.jpg/960px-Madrid_-_Museo_del_Jam%C3%B3n_%28Carrera_de_San_Jer%C3%B3nimo%29.jpg",
-      mapUrl: "https://maps.apple.com/?q=Museo+del+Jamon+Carrera+San+Jeronimo+Madrid"
     }
   ];
 
